@@ -140,14 +140,14 @@
           
           
                   <h3><small>source noise target noise scenario (5dB)</small></h3>
-				  <h5><small>Babble noise</small></h5>
+				  <h4><small>Babble noise</small></h4>
                   <div class="big-screen">
                     <table class="table">
                       <thead>
                         <tr>
                           <th></th>
-                          <th>Source</th>
-                          <th>Target</th>
+                          <th>Source-denoised</th>
+                          <th>Target-denoised</th>
                           <th>VAE-CD-C</th>
                         </tr>
                       </thead>
@@ -203,8 +203,8 @@
                       <thead>
                         <tr>
                           <th></th>
-                          <th>Source</th>
-                          <th>Target</th>
+                          <th>Source-noise</th>
+                          <th>Target-noise</th>
                           <th>VAED-CN-C</th>
                         </tr>
                       </thead>
@@ -259,15 +259,71 @@
 
 				  
           
-				  <h5><small>Street noise</small></h5>
+				  <h4><small>Street noise</small></h4>
                   <div class="big-screen">
                     <table class="table">
                       <thead>
                         <tr>
                           <th></th>
-                          <th>Source</th>
-                          <th>Target</th>
+                          <th>Source-denoised</th>
+                          <th>Target-denoised</th>
                           <th>VAE-CD-C</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Sample 1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/source-denoise/Street5/rms_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-denoise/Street5/clb_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/VAE-CD-C/Street5/rms_2_clb-rms_1092_NOISE_gen.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>                      
+                        </tr>
+                        <tr>
+                          <th scope="row">Sample 2</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/source-denoise/Street5/rms_1099_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-denoise/Street5/clb_1099_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/VAE-CD-C/Street5/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>                         
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div> 
+
+                  <div class="big-screen">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Source-noise</th>
+                          <th>Target-noise</th>
                           <th>VAED-CN-C</th>
                         </tr>
                       </thead>
@@ -276,25 +332,19 @@
                           <th scope="row">Sample 1</th>
                           <td>
                             <audio controls>
-                              <source src="./audio/source/clb_1014.wav" type="audio/wav" />
+                              <source src="./audio/source-noise/Street5/rms_1092_NOISE.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
                           <td>
                             <audio controls>
-                              <source src="./audio/target/slt_1014.wav" type="audio/wav" />
+                              <source src="./audio/target-noise/Street5/clb_1092_NOISE.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
                           <td>
                             <audio controls>
-                              <source src="./audio/convert/ori/clb_2_slt-clb_1014_gen.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/convert/se/clb_2_slt-clb_1014_gen.wav" type="audio/wav" />
+                              <source src="./audio/VAED-CN-C/Street5/rms_2_clb-rms_1092_NOISE_gen.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>                       
@@ -303,35 +353,32 @@
                           <th scope="row">Sample 2</th>
                           <td>
                             <audio controls>
-                              <source src="./audio/source/clb_1099.wav" type="audio/wav" />
+                              <source src="./audio/source-noise/Street5/rms_1099_NOISE.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
                           <td>
                             <audio controls>
-                              <source src="./audio/target/slt_1099.wav" type="audio/wav" />
+                              <source src="./audio/target-noise/Street5/clb_1099_NOISE.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
                           <td>
                             <audio controls>
-                              <source src="./audio/convert/ori/clb_2_slt-clb_1099_gen.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/convert/se/clb_2_slt-clb_1099_gen.wav" type="audio/wav" />
+                              <source src="./audio/VAED-CN-C/Street5/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>                         
                         </tr>
                       </tbody>
                     </table>
-                  </div>           
+                  </div>            
           
           
           
+
+
+
           
  
     
