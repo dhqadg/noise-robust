@@ -139,8 +139,8 @@
           
           
           
-                  <h3><small>SN-TN scenario (5dB)</small></h3>
-				  <h4><small>Babble noise</small></h4>
+                  <h3><small>SN-TN scenario</small></h3>
+				  <h4><small>Babble noise(5dB)</small></h4>
                   <div class="big-screen">
                     <table class="table">
                       <thead>
@@ -148,6 +148,7 @@
                           <th></th>
                           <th>Source-denoised</th>
                           <th>Target-denoised</th>
+						  <th>Target-clean</th>
                           <th>VAE-CD-C</th>
                         </tr>
                       </thead>
@@ -163,6 +164,11 @@
                           <td>
                             <audio controls>
                               <source src="./audio/target-denoise/Babble5/clb_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1092.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
@@ -189,6 +195,12 @@
                           </td>
                           <td>
                             <audio controls>
+                              <source src="./audio/target-clean/clb_1099.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
                               <source src="./audio/VAE-CD-C/Babble5/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
@@ -205,6 +217,7 @@
                           <th></th>
                           <th>Source-noise</th>
                           <th>Target-noise</th>
+                          <th>Target-clean</th>
                           <th>VAED-CN-C</th>
                         </tr>
                       </thead>
@@ -220,6 +233,12 @@
                           <td>
                             <audio controls>
                               <source src="./audio/target-noise/Babble5/clb_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1092.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
@@ -246,6 +265,12 @@
                           </td>
                           <td>
                             <audio controls>
+                              <source src="./audio/target-clean/clb_1099.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
                               <source src="./audio/VAED-CN-C/Babble5/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
@@ -257,9 +282,9 @@
 
 
 
-				  
-          
-				  <h4><small>Street noise</small></h4>
+
+
+				  <h4><small>Babble noise(20dB)</small></h4>
                   <div class="big-screen">
                     <table class="table">
                       <thead>
@@ -267,133 +292,7 @@
                           <th></th>
                           <th>Source-denoised</th>
                           <th>Target-denoised</th>
-                          <th>VAE-CD-C</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">Sample 1</th>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/source-denoise/Street5/rms_1092_NOISE.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/target-denoise/Street5/clb_1092_NOISE.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/VAE-CD-C/Street5/rms_2_clb-rms_1092_NOISE_gen.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>                      
-                        </tr>
-                        <tr>
-                          <th scope="row">Sample 2</th>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/source-denoise/Street5/rms_1099_NOISE.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/target-denoise/Street5/clb_1099_NOISE.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/VAE-CD-C/Street5/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>                         
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div> 
-
-                  <div class="big-screen">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th>Source-noise</th>
-                          <th>Target-noise</th>
-                          <th>VAED-CN-C</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">Sample 1</th>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/source-noise/Street5/rms_1092_NOISE.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/target-noise/Street5/clb_1092_NOISE.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/VAED-CN-C/Street5/rms_2_clb-rms_1092_NOISE_gen.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>                       
-                        </tr>
-                        <tr>
-                          <th scope="row">Sample 2</th>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/source-noise/Street5/rms_1099_NOISE.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/target-noise/Street5/clb_1099_NOISE.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>
-                          <td>
-                            <audio controls>
-                              <source src="./audio/VAED-CN-C/Street5/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </td>                         
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>            
-          
-          
-          
-
-
-
-
-
-
-
-          
- 
-                  <h3><small>SN-TN (20dB)</small></h3>
-				  <h4><small>Babble noise</small></h4>
-                  <div class="big-screen">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th></th>
-                          <th>Source-denoised</th>
-                          <th>Target-denoised</th>
+                          <th>Target-clean</th>
                           <th>VAE-CD-C</th>
                         </tr>
                       </thead>
@@ -409,6 +308,12 @@
                           <td>
                             <audio controls>
                               <source src="./audio/target-denoise/Babble20/clb_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1092.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
@@ -435,6 +340,12 @@
                           </td>
                           <td>
                             <audio controls>
+                              <source src="./audio/target-clean/clb_1099.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
                               <source src="./audio/VAE-CD-C/Babble20/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
@@ -451,6 +362,7 @@
                           <th></th>
                           <th>Source-noise</th>
                           <th>Target-noise</th>
+                          <th>Target-clean</th>
                           <th>VAED-CN-C</th>
                         </tr>
                       </thead>
@@ -466,6 +378,12 @@
                           <td>
                             <audio controls>
                               <source src="./audio/target-noise/Babble20/clb_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1092.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
@@ -492,6 +410,12 @@
                           </td>
                           <td>
                             <audio controls>
+                              <source src="./audio/target-clean/clb_1099.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
                               <source src="./audio/VAED-CN-C/Babble20/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
@@ -503,9 +427,15 @@
 
 
 
+
+
+
+
+
+
 				  
           
-				  <h4><small>Street noise</small></h4>
+				  <h4><small>Street noise(5dB)</small></h4>
                   <div class="big-screen">
                     <table class="table">
                       <thead>
@@ -513,6 +443,160 @@
                           <th></th>
                           <th>Source-denoised</th>
                           <th>Target-denoised</th>
+                          <th>Target-clean</th>
+                          <th>VAE-CD-C</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Sample 1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/source-denoise/Street5/rms_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-denoise/Street5/clb_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1092.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/VAE-CD-C/Street5/rms_2_clb-rms_1092_NOISE_gen.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>                      
+                        </tr>
+                        <tr>
+                          <th scope="row">Sample 2</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/source-denoise/Street5/rms_1099_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-denoise/Street5/clb_1099_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1099.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/VAE-CD-C/Street5/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>                         
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div> 
+				  
+
+                  <div class="big-screen">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Source-noise</th>
+                          <th>Target-noise</th>
+                          <th>Target-clean</th>
+                          <th>VAED-CN-C</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Sample 1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/source-noise/Street5/rms_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-noise/Street5/clb_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1092.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/VAED-CN-C/Street5/rms_2_clb-rms_1092_NOISE_gen.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>                       
+                        </tr>
+                        <tr>
+                          <th scope="row">Sample 2</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/source-noise/Street5/rms_1099_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-noise/Street5/clb_1099_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1099.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/VAED-CN-C/Street5/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>                         
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>            
+          
+          
+          
+
+
+
+
+
+
+
+       				  
+          
+				  <h4><small>Street noise(20dB)</small></h4>
+                  <div class="big-screen">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Source-denoised</th>
+                          <th>Target-denoised</th>
+                          <th>Target-clean</th>
                           <th>VAE-CD-C</th>
                         </tr>
                       </thead>
@@ -528,6 +612,12 @@
                           <td>
                             <audio controls>
                               <source src="./audio/target-denoise/Street20/clb_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1092.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
@@ -554,6 +644,12 @@
                           </td>
                           <td>
                             <audio controls>
+                              <source src="./audio/target-clean/clb_1099.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
                               <source src="./audio/VAE-CD-C/Street20/rms_2_clb-rms_1099_NOISE_gen.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
@@ -570,6 +666,7 @@
                           <th></th>
                           <th>Source-noise</th>
                           <th>Target-noise</th>
+                          <th>Target-clean</th>
                           <th>VAED-CN-C</th>
                         </tr>
                       </thead>
@@ -585,6 +682,12 @@
                           <td>
                             <audio controls>
                               <source src="./audio/target-noise/Street20/clb_1092_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1092.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
@@ -606,6 +709,12 @@
                           <td>
                             <audio controls>
                               <source src="./audio/target-noise/Street20/clb_1099_NOISE.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/target-clean/clb_1099.wav" type="audio/wav" />
                               Your browser does not support the audio element.
                             </audio>
                           </td>
